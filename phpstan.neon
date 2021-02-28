@@ -2,11 +2,11 @@
 parameters:
     level: max
     paths:
-        - ../config
-        - ../src
-        - ../tests
-        - ../public
+        - config
+        - src
+        - tests
+        - public
     symfony:
-        container_xml_path: ../var/cache/dev/App_KernelDevDebugContainer.xml
+        container_xml_path: ./var/cache/dev/App_KernelDevDebugContainer.xml
     ignoreErrors:
         #- '#Service "http_client" is not registered in the container.#'
